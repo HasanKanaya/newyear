@@ -1,0 +1,11 @@
+body::before {
+  display: block;
+  height: 60px;
+  content: "";
+}
+
+.hasan img {
+  display: block;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark pt-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Human Development</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#price" class="nav-link">Price</a>
+            </li>
+            <li class="nav-item">
+              <a href="#team" class="nav-link">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="bg-dark text-light p-5 text-center">
+      <div class="container p-4">
+        <h2>
+          Your Journey To Become a Professional
+          <span class="text-info">Front End Web Developer</span>
+        </h2>
+        <!-- <img class="w-25" src="two.jpg" alt="" /> -->
+      </div>
+    </section>
+
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <h2 class="text-center text-dark">What You Need To Learn</h2>
+        <p class="lead text-center text-dark mb-5">Just The Basics</p>
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md hasan">
+            <img src="download.jpg" class="img w-sm-100 w-50" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">
+              You need to learn HTML5 then you need to learn CSS3 and try using
+              flex box and grid system then you need to learn JavaScript and
+              this is the first programming language
+            </p>
+            <p>
+              Now you can learn responsive design and UI frameworks like
+              bootstrap 5 or others but the most important thing is to start
+              making projects this is the best way to dive deep into web
+              development
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bg-dark text-white">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Learn One Framework</h2>
+            <p class="lead">
+              Don't start learn it before you build at least 7 projects in
+              vanilla JavaScript and learn DOM, BOM, Array methods like forEach
+              then you can decide what you want to learn like React JS or Vue JS
+              or angular
+            </p>
+            <p>
+              Now you need to build some real projects or apps but if you want
+              to get deeper you can learn Sass, Version controls, Repo Manager,
+              Package Manager, cPanel, Server Side Rendering, Testing Unit and
+              more.
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+          <div class="col-md hasan">
+            <img src="frameworks.jpg" class="img w-75" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Price -->
+    <section id="price" class="p-5">
+      <div class="container">
+        <h2 class="text-center text-dark">Our Price</h2>
+        <p class="lead text-center text-dark mb-5">
+          If you know me you don't need to pay anything you can learn everything
+          for free
+        </p>
+        <div class="row g-4 text-center">
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Free
+                  <i class="bi bi-emoji-frown"></i>
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">0.0 USD</h6>
+                <p class="card-text">
+                  You Can Learn HTML5 and CSS3 and JS basics and Media Query and
+                  build one responsive site using Media Query
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Enroll
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          The Free Enrollment
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">Back End اسا ما تعلمت</div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Pro
+                  <i class="bi bi-emoji-smile"></i>
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">4.99 USD</h6>
+                <p class="card-text">
+                  You Can Learn All The Free Stuff and all The JavaScript like
+                  DOM and BOM and Array methods like filter and forEach and more
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Enroll
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          The Pro Enrollment
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">Back End اسا ما تعلمت</div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Plus
+                  <i class="bi bi-emoji-laughing"></i>
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">14.9 USD</h6>
+                <p class="card-text">
+                  You Can Learn All The Pro Stuff and React JS and build three
+                  apps and you will learn git, JSON, HTTP requests, package
+                  manager
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Enroll
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          The Plus Enrollment
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">Back End اسا ما تعلمت</div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">Our Team</h2>
+        <p class="lead text-center text-white mb-5">
+          Our Team Is The Best Team Ever
+        </p>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body p-3 text-center">
+                <img
+                  class="rounded-circle w-50 mb-2"
+                  src="one.jpg"
+                  alt="This is me"
+                />
+                <h3 class="card-title mb-2">Hasan Kanaya</h3>
+                <h6 class="card-subtitle mb-2 text-muted">Founder</h6>
+                <p class="card-text">
+                  مؤسس الشركة المعروف بأعماله صاحب القول الشهير اذا كل شخص اجتهد
+                  على حالو سوف يصبع العالم مكان أجمل وأفضل للعيش به
+                </p>
+                <a href="#" class="i bi bi-facebook text-dark mx-1"></a>
+                <a href="#" class="i bi bi-instagram text-dark mx-1"></a>
+                <a href="#" class="i bi bi-youtube text-dark mx-1"></a>
+                <a href="#" class="i bi bi-github text-dark mx-1"></a>
+                <a href="#" class="i bi bi-linkedin text-dark mx-1"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body p-3 text-center">
+                <img
+                  class="rounded-circle w-50 mb-2"
+                  src="one.jpg"
+                  alt="This is me"
+                />
+                <h3 class="card-title mb-2">Hasan Kanaya</h3>
+                <h6 class="card-subtitle mb-2 text-muted">CEO</h6>
+                <p class="card-text">
+                  المدير التنفذي للشركة 😎 بيحكي كتير وبنفذ كتير شو مفكر يعني
+                  شغل حكي بس، صح لقبو المتخاذل بس احيانا بيتخاذل عن التخاذل
+                  وبأنجز
+                </p>
+                <a href="#" class="i bi bi-facebook text-dark mx-1"></a>
+                <a href="#" class="i bi bi-instagram text-dark mx-1"></a>
+                <a href="#" class="i bi bi-youtube text-dark mx-1"></a>
+                <a href="#" class="i bi bi-github text-dark mx-1"></a>
+                <a href="#" class="i bi bi-linkedin text-dark mx-1"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body p-3 text-center">
+                <img
+                  class="rounded-circle mb-2 w-50"
+                  src="one.jpg"
+                  alt="This is me"
+                />
+                <h3 class="card-title mb-2">Hasan Kanaya</h3>
+                <h6 class="card-subtitle mb-2 text-muted">Developer</h6>
+                <p class="card-text">
+                  مطورنا بيحكي سبع لغاات بل اكثر من ذلك ولكن المشكلة الوحيدة
+                  حامل مواد فيزيا كتيير والمهارات الي عندو كافية لبناء اي موقع
+                  اخر
+                </p>
+                <a href="#" class="i bi bi-facebook text-dark mx-1"></a>
+                <a href="#" class="i bi bi-instagram text-dark mx-1"></a>
+                <a href="#" class="i bi bi-youtube text-dark mx-1"></a>
+                <a href="#" class="i bi bi-github text-dark mx-1"></a>
+                <a href="#" class="i bi bi-linkedin text-dark mx-1"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="p-5">
+      <div class="container">
+        <h2 class="text-center text-dark mb-5">Contact Us</h2>
+        <ul class="list-group list-group-flush lead">
+          <li class="list-group-item">
+            <span class="fw-bold">Main Location:</span> Tenth Project
+          </li>
+          <li class="list-group-item">
+            <span class="fw-bold">Phone Number:</span> +963-947-957-045
+          </li>
+          <li class="list-group-item">
+            <span class="fw-bold">Main Email:</span> hasan.kanaya9@gmail.com
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 Human Development</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
